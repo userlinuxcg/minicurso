@@ -73,7 +73,7 @@ public class MainActivity extends Activity {
 			
 		} catch (Exception e) {
 
-			Toast.makeText(this, "erro", 1000).show();
+			Toast.makeText(this, "erro"+e, 1000).show();
 
 		}
 
